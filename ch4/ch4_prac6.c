@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, c;
+    scanf("%d %d %d", &a, &b, &c);
+
+    int max = a;
+
+    if (max < b)
+        max = b;
+    else if (max < c)
+        max = c;
+
+    printf("max = %d", max);
+}
